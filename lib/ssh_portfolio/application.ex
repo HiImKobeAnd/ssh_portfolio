@@ -14,7 +14,7 @@ defmodule SSHPortfolio.Application do
       pwdfun: fn _user, _password -> true end
     ]
 
-    {:ok, ref} = :ssh.daemon({127, 0, 0, 1}, 2222, opts)
+    {:ok, ref} = :ssh.daemon({0, 0, 0, 0}, 2222, opts)
 
     children = []
 

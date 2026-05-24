@@ -3,7 +3,7 @@ defmodule SSHPortfolio.StartPage do
   import Garnish.View
 
   @impl true
-  def init(_context) do
+  def init(context) do
     {:ok, 0}
   end
 
@@ -29,7 +29,6 @@ defmodule SSHPortfolio.StartPage do
   end
 
   def handle_key(key, model) do
-    dbg(key)
     {:ok, model}
   end
 
@@ -41,18 +40,6 @@ defmodule SSHPortfolio.StartPage do
       end
 
     view(bottom_bar: menu_bar) do
-      # panel do
-      #   label(
-      #     content: ~S"""
-      #      _   _ ___ ___ __  __ _  _____  ____  _____    _    _   _ ____
-      #     | | | |_ _|_ _|  \/  | |/ / _ \| __ )| ____|  / \  | \ | |  _ \
-      #     | |_| || | | || |\/| | ' / | | |  _ \|  _|   / _ \ |  \| | | | |
-      #     |  _  || | | || |  | | . \ |_| | |_) | |___ / ___ \| |\  | |_| |
-      #     |_| |_|___|___|_|  |_|_|\_\___/|____/|_____/_/   \_\_| \_|____/ 
-      #     """
-      #   )
-      # end
-
       panel do
         label(
           content: ~S"""

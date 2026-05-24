@@ -1,5 +1,5 @@
 %{
   "asciichart": {:hex, :asciichart, "1.2.0", "4163eccf18793f5701ba4656f04803019a469d2fb98e6615803cda677afce8d9", [:mix], [], "hexpm", "28a870099bf7c6f6367953874f53445e4a882566dd8ac2e9e701989f967d374d"},
-  "garnish": {:hex, :garnish, "0.2.2", "6fe704fc6df857b478f098834df40422a614a018ca472c819815fb4fa59c6438", [:mix], [{:asciichart, "~> 1.0", [hex: :asciichart, repo: "hexpm", optional: false]}, {:typedstruct, "~> 0.5.0", [hex: :typedstruct, repo: "hexpm", optional: false]}], "hexpm", "9657044e0c8ba6fe3f0217c74e6930af0d0359ae5bd3379d4f2e94214d6bcc41"},
+  "garnish": {:hex, :garnish, "0.3.0", "7cffddbcdcc2b59b1d830b20b387b7ddc1726c77271d8b79df9be4ccbc331061", [:mix], [{:asciichart, "~> 1.0", [hex: :asciichart, repo: "hexpm", optional: false]}, {:typedstruct, "~> 0.5.0", [hex: :typedstruct, repo: "hexpm", optional: false]}], "hexpm", "d223c826ec534e636983156a801a271a3049cf62ada2675b375fac218810aefd"},
   "typedstruct": {:hex, :typedstruct, "0.5.4", "d1d33d58460a74f413e9c26d55e66fd633abd8ac0fb12639add9a11a60a0462a", [:make, :mix], [], "hexpm", "ffaef36d5dbaebdbf4ed07f7fb2ebd1037b2c1f757db6fb8e7bcbbfabbe608d8"},
 }
